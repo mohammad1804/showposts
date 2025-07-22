@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-import Todo from '../component/todo'
+import Todo from '../components/Todo'
 import "./posts.css"
 async function pagePost () {
 

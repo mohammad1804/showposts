@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from 'react'
 import "./todo.css"
-const Todo = () => {
+const todo = () => {
     const [todo, setTodo] = useState({})
     useEffect(() => {
         async function fetchData() {
@@ -23,4 +23,4 @@ const Todo = () => {
         </div>
     )
 }
-export default Todo
+export default todo

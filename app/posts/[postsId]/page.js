@@ -1,4 +1,4 @@
-import PostDaitales from '@/app/component/PostDaitales';
+import PostDaitales from '@/app/components/PostDaitales';
 import React, { Suspense } from 'react'
 const page = async({params}) => {
   const postId=params.postsId
@@ -11,9 +11,10 @@ const page = async({params}) => {
       <Suspense fallback={loadingJsx}>
           <PostDaitales postId={postId} />
       </Suspense>
- 
+
       
     </div>
   )
 }
 export default page
+
